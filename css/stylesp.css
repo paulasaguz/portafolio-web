@@ -1,0 +1,189 @@
+	body{
+        font-family: "Lato"/*font87289*/;
+        margin: 0;
+    }
+
+    .logotipo{
+        display: inline-block;
+        margin-left:120px;
+    }
+    .contenedor{
+         max-width: 800px;
+    }
+    .Redes{
+        padding: 10px;
+    }
+    .Redes a{
+         color:white;
+         text-decoration: none;
+         border:none;
+         background:#FF7C0C;
+         border-radius: 15px;
+         padding: .5em 1em;
+         cursor: pointer;
+         margin-right: 15px;
+    }
+    .background{
+         background-color: #466173;
+         background-size: cover;
+         background-position: center;
+         background-image: url("../images/abstracto.jpg");
+         height: 320px;
+         color: white;
+         padding: 50px;
+    }
+    .titulo{
+        font-family: "Poiret One";
+        margin-top: 150px;
+        font-size: 45px;
+        display: inline-block;
+        padding: 10px;
+        background: rgba(0,0,0,.6);
+    }
+    .titulo-a{
+        font-size: 24px;
+    }
+    .menu {
+        font-size: 24px;
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        right: 0;
+    }
+    .menu span{
+        font-size: 10px;
+        text-align: right;
+        display: flex;
+    }
+	.menu li{
+        display:inline-block;
+        margin-right: 90px;
+        margin-left:0;
+	}
+	.menu a {
+        text-decoration: none;
+        color: black;
+    }
+	.SobreMi{
+        width: 500px;
+        text-align: center;
+        margin: 40px auto;
+	}
+	.skills {
+         display: grid;
+         grid-template-columns: 200px 200px 200px 200px;
+         grid-template-rows: 50px 200px;
+         grid-row-gap: 0;
+         grid-column-gap:30px;
+         grid-auto-flow: column;
+         justify-content: center;
+         grid-template-areas: "skill skill skill skill "
+                       "Frontend Engineering Diseño Plus";
+    }
+    .skill{
+         grid-area: skill;
+         text-align: center;
+         align-self: center;
+     }
+    .Frontend{
+        text-decoration: none;
+         grid-area: Frontend;
+    }
+    .Engineering{
+        grid-area: Engineering;
+    }
+    .Diseño{
+        grid-area: Diseño;
+    }
+    .Plus{
+        grid-area: Plus;
+    }
+    .item {
+        padding: 10px;
+        text-align: center;
+        list-style: none;
+    }
+    .Proyectos{
+        text-align: center;
+    }
+    .Contacto{
+         text-align: center;
+         display: inline-block;
+    }
+    .contacto span{
+         text-align: center;
+         font-size: 50px;
+         padding: 5px;
+    }
+    .Social {
+        text-align: center;
+    }
+    .social-net{
+        font-size: 1.6rem;
+        position: fixed;
+        right: 3.5vh;
+        top: 80vh;
+        width: 40px;
+        text-align: center;
+    }
+    .social-net a{
+        text-decoration: none;
+    }
+    .coleccion{
+    display: inline-block;
+    padding: 20px;
+    }
+    .button {
+         cursor: pointer;
+         background: linear-gradient(to bottom right,#41C5CD, #9550B5);
+         border:none;
+         border-radius: 15px;
+         padding: 8px 20px;
+         color:white;
+        }
+        header{
+            position: relative;
+        }
+    footer{
+        background-image: url(../images/footer.png);
+        color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 2em 0;
+        text-align: center;
+    }
+    .Footer-form{
+        text-align: center;
+        display: inline-block;
+    }
+    .Footer-left{
+        display: inline-block;
+        width: 450px;
+        text-align: left;
+        vertical-align: top;
+    }
+     .Footer-title{
+         color: white;
+         margin:0;
+    }
+    .footer span{
+        font-size: 10px;
+        text-align: right;
+    }
+    .Footer-formInput,
+    .Footer-textarea{
+        background: #E7E7E7;
+        border: none;
+        display: block;
+        border-radius: 20px;
+        padding: .5em;
+        margin: 20px 200px;
+    }
+    .Footer-button{
+        background: orange;
+        border-radius: 1em;
+        border: none;
+        color: white;
+        padding: .5em 1em;
+    }
